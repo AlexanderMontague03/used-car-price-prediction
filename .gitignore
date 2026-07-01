@@ -1,0 +1,11 @@
+.agents/
+.codex/
+catboost_info/
+Project Plan/
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+.DS_Store
+Thumbs.db
