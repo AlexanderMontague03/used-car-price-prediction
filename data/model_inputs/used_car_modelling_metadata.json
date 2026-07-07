@@ -1,0 +1,45 @@
+{
+    "target_col": "price",
+    "model_price_upper": 139818.00000000003,
+    "catboost_numeric_features": [
+        "year",
+        "kilometres",
+        "engine_size_litres",
+        "fuel_consumption_per_100km",
+        "cylinders",
+        "doors",
+        "seats"
+    ],
+    "catboost_categorical_features": [
+        "brand",
+        "transmission",
+        "body_type",
+        "fuel_type",
+        "drive_type",
+        "state",
+        "colour_ext",
+        "model"
+    ],
+    "catboost_features": [
+        "year",
+        "kilometres",
+        "engine_size_litres",
+        "fuel_consumption_per_100km",
+        "cylinders",
+        "doors",
+        "seats",
+        "brand",
+        "transmission",
+        "body_type",
+        "fuel_type",
+        "drive_type",
+        "state",
+        "colour_ext",
+        "model"
+    ],
+    "test_size": 0.2,
+    "random_state": 42,
+    "cv_folds": 5,
+    "target_transform": "log1p",
+    "inverse_target_transform": "expm1"
+}

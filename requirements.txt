@@ -1,0 +1,10 @@
+catboost
+dash
+dash-bootstrap-components
+joblib
+jupyter
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
